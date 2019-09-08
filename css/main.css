@@ -28,13 +28,15 @@ body {
 header {
     height: 600px;
     background: url('../images-icons/hero.png');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: 75% 75%;  
 }
 
 header h1 {
     padding: 65px 0 65px 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #33cccc;
+    color: #009999;
     font-size: 30px;
 }
 
@@ -62,7 +64,7 @@ header h2 {
     padding: 50px 0 65px 25px;
 }
 header h2 span {
-    color: #33cccc;
+    color: #009999;
     font-style: italic;
 }
 
@@ -81,7 +83,7 @@ header h2 span {
 
 #about h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #33cccc;
+    color: #009999;
     font-size: 36px;
     font-style: italic;
     padding-left: 75px;
@@ -93,7 +95,7 @@ header h2 span {
     
 }
 #work .full-width {
-    padding: 115px 0;
+    padding: 75px 0;
 }
 
 #work .third-width {
@@ -105,12 +107,12 @@ header h2 span {
 }
 
 #work h3 {
-    font-family: 'Source Sans Pro';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2b2b2b;
-    font-size:24px;
-    line-height: 32px;
+    font-size:20px;
+    line-height: 28px;
     width: auto;
-    padding-right: 110px;
+    padding-right: 75px;
     padding-left: 100px;
     text-align: center;
     margin: 0 auto;
